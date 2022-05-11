@@ -59,7 +59,7 @@ func TestServer_ToString(t *testing.T) {
 			if err != nil {
 				t.Error("NewServer(tt.fields.Directive) failed")
 			}
-
+// test
 			if got := DumpDirective(s, tt.args); got != tt.want {
 				t.Errorf("Server.ToString() = \"%v\", want \"%v\"", got, tt.want)
 			}
